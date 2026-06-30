@@ -19,57 +19,59 @@ export default function Home() {
               <h1 className="name">
                 <span className="ln reveal">Emmanuel</span>
                 <span className="ln reveal">
-                  <em>Oladejo</em>
+                  Iyanu <em>Oladejo</em>
                 </span>
               </h1>
               <p className="thesis reveal">
                 I build the payment interfaces people trust with their <u>money</u>.
               </p>
               <p className="sub reveal">
-                Six years shipping production fintech — checkout gateways, multi-currency cards, and
-                the real-time flows that move them. React &amp; Angular, TypeScript, edge-to-edge.
+                Six years shipping production fintech — checkout gateways, multi-currency
+                cards, and the real-time flows that move them. React &amp; Angular,
+                TypeScript, edge-to-edge.
               </p>
               <div className="hero-cta reveal">
                 <a href="#work" className="btn btn-primary">
                   See the work <span className="arrow" aria-hidden="true">↗</span>
                 </a>
-                <a href="#contact" className="btn btn-ghost">Start a conversation</a>
+                <a href="#contact" className="btn btn-ghost">Get in touch</a>
               </div>
             </div>
 
             <aside className="hero-card reveal" aria-label="Emmanuel Oladejo">
               <figure className="portrait">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/portrait.png" alt="Emmanuel Oladejo" />
+                <img
+                  src="/portrait.png"
+                  alt="Portrait of Emmanuel Iyanu Oladejo, Senior Frontend Engineer"
+                  width={540}
+                  height={648}
+                />
                 <p className="badge">
                   <span className="live" aria-hidden="true" />
-                  Open to work
+                  Available for work
                 </p>
               </figure>
               <div className="spec">
                 <div className="spec-head">
-                  <span>profile.spec</span>
-                  <span>v2.6</span>
+                  <span>// profile.json</span>
+                  <span>v2026</span>
                 </div>
                 <div className="spec-row">
-                  <span className="k">role</span>
-                  <span className="v">Sr. Frontend Eng.</span>
-                </div>
-                <div className="spec-row">
-                  <span className="k">location</span>
-                  <span className="v">Lagos, NG</span>
-                </div>
-                <div className="spec-row">
-                  <span className="k">available</span>
-                  <span className="v gold">Open · 2026</span>
+                  <span className="k">focus</span>
+                  <span className="v">Fintech · Payments</span>
                 </div>
                 <div className="spec-row">
                   <span className="k">core</span>
-                  <span className="v">React / Angular</span>
+                  <span className="v gold">React · Angular · TS</span>
                 </div>
                 <div className="spec-row">
-                  <span className="k">exp</span>
-                  <span className="v">6 yrs</span>
+                  <span className="k">based</span>
+                  <span className="v">Lagos, Nigeria</span>
+                </div>
+                <div className="spec-row">
+                  <span className="k">remote</span>
+                  <span className="v gold">Open · global</span>
                 </div>
               </div>
             </aside>
@@ -81,19 +83,19 @@ export default function Home() {
           <div className="wrap band-inner">
             <div className="stat reveal">
               <div className="num">6<small>+</small></div>
-              <div className="lbl">Years in fintech</div>
+              <div className="lbl">Years shipping</div>
             </div>
             <div className="stat reveal">
-              <div className="num">12<small>+</small></div>
-              <div className="lbl">Products shipped</div>
+              <div className="num">7</div>
+              <div className="lbl">Companies built for</div>
             </div>
             <div className="stat reveal">
-              <div className="num">4</div>
-              <div className="lbl">Companies</div>
+              <div className="num">500<small>+</small></div>
+              <div className="lbl">Devs reached · DevFest</div>
             </div>
             <div className="stat reveal">
-              <div className="num">$2<small>B+</small></div>
-              <div className="lbl">In transaction flow</div>
+              <div className="num">20<small>+</small></div>
+              <div className="lbl">Engineers mentored</div>
             </div>
           </div>
         </div>
@@ -101,27 +103,28 @@ export default function Home() {
         {/* ── ABOUT ────────────────────────────────────── */}
         <section className="block" id="about">
           <div className="wrap">
-            <div className="about-grid reveal">
-              <div>
-                <p className="label eyebrow">
-                  <span className="idx">01</span> About
-                </p>
+            <div className="about-grid">
+              <div className="reveal">
+                <span className="label">// about</span>
               </div>
               <div>
-                <p className="lead">
-                  I turn complex money movement into interfaces that feel obvious — fast, accurate,
-                  and trusted at scale.
+                <p className="lead reveal">
+                  Six years shipping production fintech — checkout gateways, multi-currency
+                  card management, and payment flows that handle the edge cases banks
+                  don&apos;t document in their APIs.
                 </p>
-                <p>
-                  My focus has always been the moment of transaction: the split-second when a user
-                  commits a payment, the confirmation that lands instantly, the dashboard that never
-                  lies. I work across the full frontend layer — architecture, design systems, and
-                  performance — to make fintech feel effortless.
+                <p className="reveal">
+                  I started as a junior at Zenith Bank writing jQuery for internal tools,
+                  and spent the years since moving up through increasingly complex payment
+                  systems. At Interswitch I rebuilt a legacy switch UI from scratch in
+                  React. At Kaiglo I architected the entire storefront. The pattern is the
+                  same everywhere: dig into how money moves, then build the interface that
+                  makes it feel effortless.
                 </p>
-                <p>
-                  Based in Lagos, Nigeria, at the intersection of Africa&apos;s fastest-growing
-                  payment ecosystems. React &amp; Angular primary, TypeScript always, eye forever on
-                  the user.
+                <p className="reveal">
+                  Outside client work I mentor engineers and speak at developer events.
+                  DevFest Lagos 2025, 500+ developers in the room. I care about the next
+                  generation of Nigerian engineers having better onramps than I did.
                 </p>
               </div>
             </div>
@@ -132,130 +135,223 @@ export default function Home() {
         <section className="block" id="work">
           <div className="wrap">
             <div className="section-head">
-              <h2>Selected Work</h2>
-              <span className="note">Six years, four companies, one focus — fintech at scale.</span>
+              <div>
+                <span className="eyebrow reveal">
+                  <span className="idx">01</span>
+                  {' → Work · deployments'}
+                </span>
+                <h2 className="reveal" style={{ marginTop: '0.8rem' }}>Systems shipped</h2>
+              </div>
+              <p className="note reveal">
+                Every engagement below shipped to real users. No concept work, no internal
+                prototypes — production code people pay with.
+              </p>
             </div>
+
             <div className="ledger">
 
-              {/* Entry 1 */}
-              <div className="entry reveal">
+              {/* Wakanow */}
+              <article className="entry reveal">
                 <div className="meta-l">
                   <span className="chip live">Live</span>
-                  <span className="yr">2023 – Now</span>
+                  <span className="yr">Nov 2024 – Now</span>
                 </div>
                 <div className="body">
-                  <h3>Checkout Gateway · <span className="co">Fincra</span></h3>
+                  <h3>Travel Checkout · <span className="co">Wakanow</span></h3>
                   <p className="role">Senior Frontend Engineer</p>
                   <p className="desc">
-                    Architected the merchant-facing checkout SDK and dashboard consumed by{' '}
-                    <b>3,000+ businesses</b> across Africa. Rebuilt the payment flow from a
-                    multi-page form into a single-pass sheet, cutting abandonment by 34 % while
-                    adding 12 new currency routes.
+                    Rebuilt the travel checkout funnel — flights, hotels, visa applications
+                    — with React and TypeScript. Streamlined the payment step from four
+                    screens to two, cutting booking drop-off significantly across Africa&apos;s
+                    largest OTA.
                   </p>
                 </div>
                 <div>
                   <div className="stack">
                     <span className="t">React</span>
                     <span className="t">TypeScript</span>
-                    <span className="t">Next.js</span>
-                    <span className="t">GraphQL</span>
-                    <span className="t">Zustand</span>
+                    <span className="t">Redux Toolkit</span>
+                    <span className="t">Tailwind CSS</span>
                   </div>
                   <div className="metric">
                     <span className="bar" />
-                    34 % drop in abandonment
+                    4 screens → 2 at checkout
                   </div>
                 </div>
-              </div>
+              </article>
 
-              {/* Entry 2 */}
-              <div className="entry reveal">
+              {/* Interswitch */}
+              <article className="entry reveal">
                 <div className="meta-l">
                   <span className="chip shipped">Shipped</span>
-                  <span className="yr">2021 – 2023</span>
+                  <span className="yr">Oct 2024 – May 2026</span>
                 </div>
                 <div className="body">
-                  <h3>Multi-currency Cards · <span className="co">Chipper Cash</span></h3>
-                  <p className="role">Frontend Engineer</p>
+                  <h3>Payment Switch UI · <span className="co">Interswitch Group</span></h3>
+                  <p className="role">Senior Frontend Engineer</p>
                   <p className="desc">
-                    Built the card-management interface enabling users to hold, convert, and spend
-                    across <b>7 African currencies</b> in real time. Delivered a design-system
-                    migration from a legacy CSS approach to token-driven theming — adopted across
-                    four product squads.
+                    Rebuilt two internal product consoles powering Nigeria&apos;s largest
+                    payment switch. Migrated a legacy Angular 8 app to Angular 17 with
+                    standalone components and NgRx signal store.
                   </p>
                 </div>
                 <div>
                   <div className="stack">
                     <span className="t">Angular</span>
-                    <span className="t">TypeScript</span>
                     <span className="t">NgRx</span>
-                    <span className="t">REST</span>
-                    <span className="t">SCSS</span>
+                    <span className="t">TypeScript</span>
+                    <span className="t">RxJS</span>
                   </div>
                   <div className="metric">
                     <span className="bar" />
-                    200 k+ daily active users
+                    60% bundle size reduction
                   </div>
                 </div>
-              </div>
+              </article>
 
-              {/* Entry 3 */}
-              <div className="entry reveal">
+              {/* Prunedge */}
+              <article className="entry reveal">
                 <div className="meta-l">
                   <span className="chip shipped">Shipped</span>
-                  <span className="yr">2020 – 2021</span>
+                  <span className="yr">Mar – Sep 2024</span>
                 </div>
                 <div className="body">
-                  <h3>Real-time Ledger · <span className="co">Kuda Bank</span></h3>
+                  <h3>HR &amp; Payroll Platform · <span className="co">Prunedge</span></h3>
                   <p className="role">Frontend Engineer</p>
                   <p className="desc">
-                    Developed the real-time transaction feed and notification layer for Nigeria&apos;s
-                    first fully digital bank. Introduced <b>WebSocket-driven optimistic updates</b>{' '}
-                    that cut perceived latency from 900 ms to under 120 ms for 1 M+ users.
+                    Built a multi-tenant HR and payroll platform from design specs. Key
+                    contribution: a payroll rules engine UI that lets non-technical HR
+                    admins configure complex deductions without engineering support.
                   </p>
                 </div>
                 <div>
                   <div className="stack">
                     <span className="t">React</span>
-                    <span className="t">Redux</span>
-                    <span className="t">WebSockets</span>
-                    <span className="t">Node.js</span>
+                    <span className="t">TypeScript</span>
+                    <span className="t">React Query</span>
+                    <span className="t">Styled Components</span>
                   </div>
                   <div className="metric">
                     <span className="bar" />
-                    900 ms → 120 ms latency
+                    Self-serve payroll config
                   </div>
                 </div>
-              </div>
+              </article>
 
-              {/* Entry 4 */}
-              <div className="entry reveal">
+              {/* Kaiglo */}
+              <article className="entry reveal">
                 <div className="meta-l">
                   <span className="chip shipped">Shipped</span>
-                  <span className="yr">2018 – 2020</span>
+                  <span className="yr">Aug 2022 – Oct 2024</span>
                 </div>
                 <div className="body">
-                  <h3>POS Interface · <span className="co">Flutterwave</span></h3>
-                  <p className="role">Junior → Mid Frontend Engineer</p>
+                  <h3>E-commerce Storefront · <span className="co">Kaiglo</span></h3>
+                  <p className="role">Lead Frontend Engineer</p>
                   <p className="desc">
-                    Joined as first frontend hire on the merchant POS team. Shipped the web terminal
-                    used by <b>100 k+ merchants</b> to accept card, bank transfer, and USSD payments.
-                    Led adoption of React from a jQuery baseline.
+                    Sole frontend architect for a Lagos e-commerce marketplace. Designed
+                    the component system, built storefront, seller dashboard, and the
+                    in-app wallet with escrow — all from scratch, solo.
+                  </p>
+                </div>
+                <div>
+                  <div className="stack">
+                    <span className="t">Next.js</span>
+                    <span className="t">TypeScript</span>
+                    <span className="t">Zustand</span>
+                    <span className="t">Tailwind CSS</span>
+                  </div>
+                  <div className="metric">
+                    <span className="bar" />
+                    Full stack, built solo
+                  </div>
+                </div>
+              </article>
+
+              {/* Platform45 */}
+              <article className="entry reveal">
+                <div className="meta-l">
+                  <span className="chip shipped">Shipped</span>
+                  <span className="yr">Aug – Oct 2022</span>
+                </div>
+                <div className="body">
+                  <h3>Fintech Dashboards · <span className="co">Platform45</span></h3>
+                  <p className="role">Frontend Engineer (Contract)</p>
+                  <p className="desc">
+                    Short-term engagement building data-intensive dashboards for a South
+                    African fintech client. Worked inside a remote cross-functional squad
+                    on tight delivery cycles.
+                  </p>
+                </div>
+                <div>
+                  <div className="stack">
+                    <span className="t">React</span>
+                    <span className="t">TypeScript</span>
+                    <span className="t">Material-UI</span>
+                    <span className="t">React Query</span>
+                  </div>
+                  <div className="metric">
+                    <span className="bar" />
+                    Delivered on schedule
+                  </div>
+                </div>
+              </article>
+
+              {/* Zenith Bank */}
+              <article className="entry reveal">
+                <div className="meta-l">
+                  <span className="chip shipped">Shipped</span>
+                  <span className="yr">Aug 2020 – Jul 2022</span>
+                </div>
+                <div className="body">
+                  <h3>Branch Ops Dashboard · <span className="co">Zenith Bank</span></h3>
+                  <p className="role">Frontend Developer</p>
+                  <p className="desc">
+                    First engineering role. Transitioned the team from jQuery to React.
+                    Shipped an internal branch-ops dashboard used daily by 1,200+ staff
+                    across Nigeria.
                   </p>
                 </div>
                 <div>
                   <div className="stack">
                     <span className="t">React</span>
                     <span className="t">JavaScript</span>
-                    <span className="t">REST</span>
-                    <span className="t">Webpack</span>
+                    <span className="t">SCSS</span>
                   </div>
                   <div className="metric">
                     <span className="bar" />
-                    100 k+ merchants onboarded
+                    1,200+ daily staff users
                   </div>
                 </div>
-              </div>
+              </article>
+
+              {/* Onebmac */}
+              <article className="entry reveal">
+                <div className="meta-l">
+                  <span className="chip shipped">Shipped</span>
+                  <span className="yr">Jul 2018 – Sep 2020</span>
+                </div>
+                <div className="body">
+                  <h3>Agency Work · <span className="co">Onebmac</span></h3>
+                  <p className="role">Frontend Developer</p>
+                  <p className="desc">
+                    Agency work across retail, hospitality, and logistics clients.
+                    Pixel-perfect responsive HTML/CSS from Figma, integrated with PHP
+                    backends across multiple industries.
+                  </p>
+                </div>
+                <div>
+                  <div className="stack">
+                    <span className="t">HTML5</span>
+                    <span className="t">CSS3</span>
+                    <span className="t">JavaScript</span>
+                    <span className="t">jQuery</span>
+                  </div>
+                  <div className="metric">
+                    <span className="bar" />
+                    Multi-industry delivery
+                  </div>
+                </div>
+              </article>
 
             </div>
           </div>
@@ -265,57 +361,74 @@ export default function Home() {
         <section className="block" id="products">
           <div className="wrap">
             <div className="section-head">
-              <h2>Products</h2>
-              <span className="note">Side projects built to scratch my own itch.</span>
+              <div>
+                <span className="eyebrow reveal">
+                  <span className="idx">02</span>
+                  {' → Products · in build'}
+                </span>
+                <h2 className="reveal" style={{ marginTop: '0.8rem' }}>Things I&apos;m building</h2>
+              </div>
+              <p className="note reveal">Side projects that became serious products.</p>
             </div>
             <div className="product-grid">
 
-              <a className="product-card reveal" href="#" aria-label="PayKit — Open source checkout UI">
-                <span className="ghost" aria-hidden="true">P</span>
+              <a
+                className="product-card reveal"
+                href="https://staging.withlevo.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Levo — banking dashboard for African freelancers"
+              >
+                <span className="ghost" aria-hidden="true">L</span>
                 <div className="pc-top">
-                  <span className="chip live">Open source</span>
-                  <span className="role">Creator &amp; maintainer</span>
+                  <span className="chip shipped">In beta</span>
+                  <span className="role">Creator &amp; lead engineer</span>
                 </div>
-                <h3>PayKit</h3>
+                <h3>Levo</h3>
                 <p className="pc-desc">
-                  A drop-in React checkout component built for African payment providers. Supports
-                  card, bank transfer, USSD, and mobile money. Zero opinions on styling — bring your
-                  own design tokens.
-                </p>
-                <div className="pc-foot">
-                  <div className="stack">
-                    <span className="t">React</span>
-                    <span className="t">TypeScript</span>
-                    <span className="t">Rollup</span>
-                  </div>
-                  <span className="pc-link">
-                    View on GitHub <span className="arrow" aria-hidden="true">↗</span>
-                  </span>
-                </div>
-              </a>
-
-              <div className="product-card reveal">
-                <span className="ghost" aria-hidden="true">F</span>
-                <div className="pc-top">
-                  <span className="chip shipped">Internal</span>
-                  <span className="role">Lead engineer</span>
-                </div>
-                <h3>FlowLens</h3>
-                <p className="pc-desc">
-                  A real-time transaction analytics dashboard built for ops teams to monitor payment
-                  health, spot anomalies, and drill into failure chains — all without touching SQL.
+                  A banking dashboard for African freelancers — multi-currency balances,
+                  invoice generation, and instant payout to local accounts.
                 </p>
                 <div className="pc-foot">
                   <div className="stack">
                     <span className="t">Next.js</span>
-                    <span className="t">Recharts</span>
-                    <span className="t">GraphQL</span>
+                    <span className="t">TypeScript</span>
+                    <span className="t">Tailwind CSS</span>
                   </div>
-                  <span className="pc-link muted">
-                    Private repo <span className="arrow" aria-hidden="true">↗</span>
+                  <span className="pc-link">
+                    Visit staging <span className="arrow" aria-hidden="true">↗</span>
                   </span>
                 </div>
-              </div>
+              </a>
+
+              <a
+                className="product-card reveal"
+                href="https://feanpay.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Feanpay — payments infrastructure for small Nigerian businesses"
+              >
+                <span className="ghost" aria-hidden="true">F</span>
+                <div className="pc-top">
+                  <span className="chip shipped">In beta</span>
+                  <span className="role">Creator &amp; lead engineer</span>
+                </div>
+                <h3>Feanpay</h3>
+                <p className="pc-desc">
+                  Payments infrastructure for small Nigerian businesses — virtual accounts,
+                  split settlements, and a no-code checkout link builder.
+                </p>
+                <div className="pc-foot">
+                  <div className="stack">
+                    <span className="t">React</span>
+                    <span className="t">Node.js</span>
+                    <span className="t">TypeScript</span>
+                  </div>
+                  <span className="pc-link">
+                    Visit feanpay <span className="arrow" aria-hidden="true">↗</span>
+                  </span>
+                </div>
+              </a>
 
             </div>
           </div>
@@ -325,48 +438,73 @@ export default function Home() {
         <section className="block" id="stack">
           <div className="wrap">
             <div className="section-head">
-              <h2>Tech Stack</h2>
-              <span className="note">Tools I reach for in production.</span>
+              <div>
+                <span className="eyebrow reveal">
+                  <span className="idx">03</span>
+                  {' → Stack · toolkit'}
+                </span>
+                <h2 className="reveal" style={{ marginTop: '0.8rem' }}>What I reach for</h2>
+              </div>
             </div>
             <div className="stack-grid reveal">
               <div className="stack-cell">
-                <div className="ct">Frameworks <span className="n">01</span></div>
+                <div className="ct">Core frameworks <span className="n">01</span></div>
                 <div className="items">
-                  <span>React</span>
+                  <span>React.js</span>
                   <span>Angular</span>
                   <span>Next.js</span>
-                  <span>Vite</span>
-                  <span>Remix</span>
                 </div>
               </div>
               <div className="stack-cell">
-                <div className="ct">Languages &amp; Styling <span className="n">02</span></div>
+                <div className="ct">Languages <span className="n">02</span></div>
                 <div className="items">
                   <span>TypeScript</span>
-                  <span>JavaScript</span>
-                  <span>CSS / SCSS</span>
-                  <span>HTML</span>
-                  <span>GraphQL</span>
+                  <span>JavaScript ES6+</span>
+                  <span>HTML5</span>
+                  <span>CSS3 / SCSS</span>
                 </div>
               </div>
               <div className="stack-cell">
-                <div className="ct">State &amp; Data <span className="n">03</span></div>
+                <div className="ct">State &amp; data <span className="n">03</span></div>
                 <div className="items">
-                  <span>Zustand</span>
-                  <span>Redux</span>
+                  <span>Redux Toolkit</span>
                   <span>NgRx</span>
                   <span>React Query</span>
-                  <span>SWR</span>
+                  <span>Zustand</span>
+                  <span>RxJS</span>
+                  <span>Context</span>
                 </div>
               </div>
               <div className="stack-cell">
-                <div className="ct">Infrastructure <span className="n">04</span></div>
+                <div className="ct">Build &amp; testing <span className="n">04</span></div>
                 <div className="items">
-                  <span>Vercel</span>
-                  <span>AWS</span>
+                  <span>Vite</span>
+                  <span>Webpack</span>
+                  <span>Vitest</span>
+                  <span>React Testing Library</span>
+                  <span>Jest</span>
+                  <span>Jasmine</span>
+                </div>
+              </div>
+              <div className="stack-cell">
+                <div className="ct">UI &amp; styling <span className="n">05</span></div>
+                <div className="items">
+                  <span>Tailwind CSS</span>
+                  <span>Radix UI</span>
+                  <span>CVA</span>
+                  <span>Material-UI</span>
+                  <span>Styled Components</span>
+                  <span>Storybook</span>
+                </div>
+              </div>
+              <div className="stack-cell">
+                <div className="ct">Backend &amp; ops <span className="n">06</span></div>
+                <div className="items">
+                  <span>Node.js</span>
+                  <span>Express</span>
+                  <span>NestJS</span>
                   <span>Docker</span>
                   <span>GitHub Actions</span>
-                  <span>Nx</span>
                 </div>
               </div>
             </div>
@@ -377,51 +515,84 @@ export default function Home() {
         <section className="block" id="community">
           <div className="wrap">
             <div className="section-head">
-              <h2>Community</h2>
-              <span className="note">Giving back to the Lagos tech scene.</span>
+              <div>
+                <span className="eyebrow reveal">
+                  <span className="idx">04</span>
+                  {' → Community · beyond the codebase'}
+                </span>
+                <h2 className="reveal" style={{ marginTop: '0.8rem' }}>Beyond the codebase</h2>
+              </div>
             </div>
             <div className="comm-grid">
 
-              <div className="comm-card reveal">
-                <span className="big" aria-hidden="true">M</span>
-                <div className="k">Mentoring</div>
-                <h4>Lagos Frontend Collective</h4>
+              <article className="comm-card reveal">
+                <span className="big" aria-hidden="true">D</span>
+                <div className="k">Speaker</div>
+                <h4>DevFest Lagos 2025</h4>
                 <p>
-                  Weekly office hours for junior engineers breaking into fintech. 30+ engineers
-                  mentored, 18 placed in full-time roles at product companies.
+                  Spoke on building resilient payment UIs at Google DevFest Lagos — 500+
+                  developers in attendance.
                 </p>
-              </div>
+              </article>
 
-              <div className="comm-card reveal">
-                <span className="big" aria-hidden="true">W</span>
-                <div className="k">Writing</div>
-                <h4>Engineering Blog</h4>
+              <article className="comm-card reveal">
+                <span className="big" aria-hidden="true">D</span>
+                <div className="k">Founder · Mentor</div>
+                <h4>Drexilio</h4>
                 <p>
-                  Deep-dives on frontend performance in payment flows, accessibility in fintech
-                  UIs, and building design systems that scale across African markets.
+                  Founded Drexilio, a community for African engineers to find and share
+                  freelance opportunities across the continent.
                 </p>
-              </div>
+              </article>
 
-              <div className="comm-card reveal">
-                <span className="big" aria-hidden="true">S</span>
-                <div className="k">Speaking</div>
-                <h4>DevFest Lagos · JSConf Africa</h4>
+              <article className="comm-card reveal">
+                <span className="big" aria-hidden="true">T</span>
+                <div className="k">Mentor</div>
+                <h4>Techhaven &amp; Techstudio</h4>
                 <p>
-                  Talks on real-time UI architecture, WebSocket patterns in financial apps, and
-                  bridging the design-to-engineering gap in fast-moving product teams.
+                  Mentored 20+ developers through bootcamp programmes at Techhaven and
+                  Techstudio, Lagos — from HTML basics to deploying React apps.
                 </p>
-              </div>
+              </article>
 
-              <div className="comm-card reveal">
+              <article className="comm-card reveal">
                 <span className="big" aria-hidden="true">O</span>
-                <div className="k">Open Source</div>
-                <h4>Contributor &amp; Maintainer</h4>
+                <div className="k">Contributor</div>
+                <h4>Open source</h4>
                 <p>
-                  Active contributor to React-based component libraries. Maintainer of PayKit — a
-                  checkout UI library purpose-built for African payment providers.
+                  Regular contributor to open source tooling in the Nigerian developer
+                  ecosystem. Bug fixes, documentation, and small feature PRs.
+                </p>
+              </article>
+
+            </div>
+
+            <div
+              className="reveal"
+              style={{
+                marginTop: '2.4rem',
+                paddingTop: '2rem',
+                borderTop: '1px solid var(--line)',
+                display: 'flex',
+                gap: '2rem 3rem',
+                flexWrap: 'wrap',
+              }}
+            >
+              <div>
+                <div className="eyebrow" style={{ marginBottom: '0.6rem' }}>Education</div>
+                <p
+                  style={{
+                    fontFamily: 'var(--mono)',
+                    fontSize: '0.86rem',
+                    lineHeight: 1.9,
+                    color: 'var(--mute)',
+                  }}
+                >
+                  B.Tech – Second Class Upper, Nigeria<br />
+                  PGD, Computer Science – Babcock University<br />
+                  Web Developer – Andela Learning Community
                 </p>
               </div>
-
             </div>
           </div>
         </section>
@@ -430,31 +601,34 @@ export default function Home() {
         <section className="block contact" id="contact">
           <div className="wrap">
             <div className="eyebrow reveal">
-              <span className="idx">Let&apos;s build</span>
+              <span className="idx">05</span>
+              &nbsp;→ Contact
             </div>
             <div className="big-cta reveal">
-              <a href="mailto:emmanueliyanu2012@gmail.com">
-                emmanueliyanu2012
-                <br />
-                @gmail.com
+              <a href="mailto:emmanueliyanu.oladejo@gmail.com">
+                Let&apos;s build it.
               </a>
             </div>
             <div className="contact-rows reveal">
+              <a href="mailto:emmanueliyanu.oladejo@gmail.com">
+                <span className="d" aria-hidden="true" />
+                emmanueliyanu.oladejo@gmail.com
+              </a>
+              <a href="tel:+2347068576214">
+                <span className="d" aria-hidden="true" />
+                +234 706 857 6214
+              </a>
               <a href="https://github.com/emmanueliyanu21" target="_blank" rel="noopener noreferrer">
                 <span className="d" aria-hidden="true" />
                 GitHub
               </a>
-              <a href="https://linkedin.com/in/emmanuel-oladejo" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/in/emmanuel-oladejo-b4b751120/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <span className="d" aria-hidden="true" />
                 LinkedIn
-              </a>
-              <a href="https://twitter.com/emmanueliyanu21" target="_blank" rel="noopener noreferrer">
-                <span className="d" aria-hidden="true" />
-                Twitter
-              </a>
-              <a href="mailto:emmanueliyanu2012@gmail.com">
-                <span className="d" aria-hidden="true" />
-                Email
               </a>
             </div>
           </div>
@@ -465,9 +639,9 @@ export default function Home() {
       <footer>
         <div className="wrap foot">
           <p className="m">
-            <b>Emmanuel Oladejo</b> — Senior Frontend Engineer, Lagos, NG
+            <b>Emmanuel Iyanu Oladejo</b> — Senior Frontend Engineer
           </p>
-          <p className="m">Built with Next.js · {new Date().getFullYear()}</p>
+          <p className="m">Lagos, Nigeria · open to work · {new Date().getFullYear()}</p>
         </div>
       </footer>
     </>
