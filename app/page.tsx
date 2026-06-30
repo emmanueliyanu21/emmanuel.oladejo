@@ -39,9 +39,8 @@ export default function Home() {
 
             <aside className="hero-card reveal" aria-label="Emmanuel Oladejo">
               <figure className="portrait">
-                <div className="portrait-placeholder">
-                  <span>EO</span>
-                </div>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/portrait.png" alt="Emmanuel Oladejo" />
                 <p className="badge">
                   <span className="live" aria-hidden="true" />
                   Open to work
